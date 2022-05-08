@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Caveat:wght@400;500&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@600&family=EB+Garamond&family=Josefin+Sans:wght@200&family=League+Spartan:wght@300&family=Oswald:wght@200&family=PT+Sans+Narrow&family=Roboto+Condensed:wght@300&family=Water+Brush&family=Yanone+Kaffeesatz:wght@300&family=Zen+Antique&family=Zen+Kurenaido&display=swap');
+body {
+    background: rgb(8, 0, 0);
+}
+
+#container h1 {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
+h3 {
+    color: white;
+    letter-spacing: 1rem;
+    padding: 5px;
+}
+
+#container {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.pro1 {
+    width: 50%;
+    height: 60%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin: 5rem 23rem;
+    padding: 80px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    color: #fff;
+    letter-spacing: 0.4rem;
+}
+
+#demo {
+    z-index: -1;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    #container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    h3,
+    h4 {
+        align-items: center;
+        padding-left: 50px;
+    }
+    .pro1 {
+        width: 85%;
+        height: 60%;
+        box-sizing: border-box;
+        border: 1px solid white;
+        border-radius: 12px;
+        margin-left: 3rem;
+        padding: 60px;
+        padding-left: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    #container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    h3,
+    h4 {
+        margin-left: -4rem;
+    }
+    .pro1 {
+        width: 85%;
+        height: 60%;
+        box-sizing: border-box;
+        border: 1px solid white;
+        border-radius: 12px;
+        margin-left: 3rem;
+        padding: 60px;
+        padding-left: 40px;
+        text-align: center;
+    }
+    .btn {
+        margin-left: 1rem;
+    }
+}
